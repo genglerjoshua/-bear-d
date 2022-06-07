@@ -25,22 +25,13 @@ h2 {
   padding: 20px 0 20px 0;
 }
 
-/* .bearLogo {
-  position: relative;
-  display: block;
-  margin-top: 100px;
-  height: 80vh;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-svg {
+.svgTextLogo {
   width: 80%;
   height: auto;
   position: relative;
   display: block;
   margin: auto;
+  transform: rotate(-15deg);
 }
 
 .textLogoPos {
@@ -59,7 +50,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -73,7 +64,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -87,7 +78,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -101,7 +92,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -115,7 +106,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -129,7 +120,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -143,7 +134,7 @@ svg {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: draw 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; 
@@ -153,7 +144,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 1.8s;
-  animation-delay: 3s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -163,7 +154,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 2s;
-  animation-delay: 3s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -173,7 +164,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 2s;
-  animation-delay: 3.2s;
+  animation-delay: 4.2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -183,7 +174,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 2s;
-  animation-delay: 3.4s;
+  animation-delay: 4.4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -193,7 +184,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 2s;
-  animation-delay: 3.6s;
+  animation-delay: 4.6s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -203,7 +194,7 @@ svg {
   fill-opacity: 0;
   fill: white;
   animation: show 2s;
-  animation-delay: 3.8s;
+  animation-delay: 4.8s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
@@ -216,10 +207,62 @@ svg {
   stroke-opacity: 0;
   stroke-width:15;
   animation: show 2s;
-  animation-delay: 4s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;    
+}
+
+.svgBearLogo {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: -1;
+  }
+
+#lineHead {
+    fill: none;
+    stroke:#ffffff;
+    stroke-width:.25;
+    stroke-miterlimit:10;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: draw 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+
+#lineStache {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:.25;
+  stroke-miterlimit:10;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: draw 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+#lineBeard {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:.25;
+  stroke: miterlimit 10;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes draw {
