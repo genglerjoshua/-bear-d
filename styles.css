@@ -1,0 +1,281 @@
+@font-face {
+  font-family: cubao;
+  src: url(fonts/Cubao_Free_Regular.otf);
+}
+
+body {
+  background: rgb(33,33,33);
+  background-image: linear-gradient(306deg, rgba(0, 0, 0, .5) 0%, rgb(65, 65, 65, .5) 50%, rgb(0, 0, 0, .5) 100%), url("images/carbon_fibre.png");
+}
+
+h2 {
+  text-align: center;
+  font-family: cubao;
+}
+
+.navbar-brand {
+  font-family: cubao;
+}
+
+.navbarBg {
+  background-color: rgb(128, 128, 128);
+}
+
+.padCont {
+  padding: 20px 0 20px 0;
+}
+
+.svgTextLogo {
+  width: 80%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  transform: rotate(-15deg);
+}
+
+.textLogoPos {
+  margin-top: 20vh;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+#lineAppostA {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineB {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineE {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineA {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineR {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineAppostB {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#lineD {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+}
+
+#fillAppostA {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 1.8s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillB {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillE {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 2s;
+  animation-delay: 4.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillA {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 2s;
+  animation-delay: 4.4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillR {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 2s;
+  animation-delay: 4.6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillAppostB {
+  fill-opacity: 0;
+  fill: white;
+  animation: show 2s;
+  animation-delay: 4.8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+#fillD {
+  fill: none;
+  fill-opacity: 0;
+  stroke:white;
+  stroke-opacity: 0;
+  stroke-width:15;
+  animation: show 2s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;    
+}
+
+.svgBearLogo {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: -1;
+  }
+
+#lineHead {
+    fill: none;
+    stroke:#ffffff;
+    stroke-width:.25;
+    stroke-miterlimit:10;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: draw 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+
+#lineStache {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:.25;
+  stroke-miterlimit:10;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: draw 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+#lineBeard {
+  fill: none;
+  stroke:#ffffff;
+  stroke-width:.25;
+  stroke: miterlimit 10;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+ }
+    }
+  
+  @keyframes show {
+  to {
+    fill-opacity: 1;
+    opacity: 1;
+    stroke-opacity: 1;
+ }
+    }
