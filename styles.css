@@ -237,12 +237,11 @@ h2 {
 }
 
 .svgBearLogo {
-    width: 40vw;
-    height: auto;
+    max-width: 60%;
+    max-height: 80%;
     position: absolute;
     top: 30px;
-    margin-left:auto;
-    margin-right:auto;
+    left: 1%;
     z-index: -1;
   }
 
